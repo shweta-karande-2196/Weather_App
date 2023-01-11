@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "poppins",sans-serif;
+    background-image:url("data:image/jpeg;base64,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") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+     height: 100vh;
+
+}
+
+.container{
+    padding: 20px 20px;
+    color: #fff;
+}
+
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.date-container{
+ font-weight: 100;
+}
+
+.date-container .time{
+    font-size: 70px;
+
+}
+
+.date-container #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
+} 
+
+.date-container .date{
+    font-size: 30px;
+}
+
+.place-container{
+    text-align: end;
+}
+
+.place-container .time-zone{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.place-container .country{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.current-info .others{
+    display: flex;
+    flex-direction: column;
+    background: rgba(24, 24, 27, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+}
+
+.current-info .others .weather-items{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.future-forcast{
+    background: rgba(24, 24, 27, 0.8);
+    padding: 25px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.future-forcast .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.future-forcast .today .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 50px;
+    text-align: center;
+}
+.future-forcast .today .temp{
+    font-size:18px;
+    padding-top: 15px;
+}
+
+.future-forcast .weather-forcast{
+    display: flex;
+    
+}
+
+.weather-forcast .weather-forcast-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.2);
+
+}
+
+.weather-forcast .weather-forcast-items .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 50px;
+    text-align: center;
+}
+.weather-forcast .weather-forcast-items .temp{
+    font-weight: 100;
+}
+
+@media only screen and (max-width:730px){
+    .future-forcast{
+        justify-content: start;
+        align-items: none;
+        overflow-x: scroll;
+    }
+}
